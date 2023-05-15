@@ -42,16 +42,6 @@ class _BookDetailPageState extends State<BookDetailPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        actions: const [
-          // IconButton(
-          //   padding: const EdgeInsets.only(top: 20, right: 30),
-          //   icon: Icon(
-          //     _isFavorite ? Iconsax.heart5 : Iconsax.heart5,
-          //     color: _isFavorite ? Colors.red : null,
-          //   ),
-          //   onPressed: _toggleFavorite,
-          // ),
-        ],
         leading: IconButton(
           padding: const EdgeInsets.only(top: 20, left: 30),
           icon: const Icon(Iconsax.arrow_left),
