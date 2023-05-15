@@ -1,6 +1,6 @@
 # BOOKHIVE Aplication
 
-Project flutter
+Flutter Project
 
 ## Getting Started
 
