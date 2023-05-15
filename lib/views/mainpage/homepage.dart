@@ -4,14 +4,14 @@ import 'package:iconsax/iconsax.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:firebase_messaging/firebase_messaging.dart';
-
 import 'categorypage.dart';
 import 'bookdetail.dart';
+
 import '../../customcolor.dart';
 
 import '../../views/mainpage/mynote.dart';
 
-import '../../viewsmodel/getfcm.dart';
+//import '../../viewsmodel/getfcm.dart';
 import '../../viewsmodel/localnotif.dart';
 import '../../viewsmodel/searchbook.dart';
 import '../../viewsmodel/theme_controller.dart';
@@ -23,7 +23,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   final ThemeController _themeController = Get.find();
-  // int _counter = 0;
+  // int _counter = 0; untuk mendapatkan fcm token
 
   //list books
   List<dynamic> _books = [];
@@ -47,10 +47,6 @@ class _HomePageState extends State<HomePage> {
       _books1 = data['items'];
     });
   }
-  // void _incrementCounter() async{
-  //   String? fcmKey = await getFcmToken();
-  //   print('FCM Key : $fcmKey');
-  // }
 
   @override
   void initState() {
@@ -424,11 +420,14 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
-      // floatingActionButton: FloatingActionButton(
-      //   onPressed: _incrementCounter,
-      //   tooltip: 'Increment',
-      //   child: const Icon(Icons.add),
-      // ),
+      /*
+      button untuk mendapatkan fcm token
+      floatingActionButton: FloatingActionButton(
+        onPressed: _incrementCounter,
+        tooltip: 'Increment',
+        child: const Icon(Icons.add),
+      ),
+      */
     );
   }
 }

@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
 import '../../models/note.dart';
-import '../../viewsmodel/database_note.dart';
+import '../../models/database_note.dart';
 
 import '../../customcolor.dart';
 

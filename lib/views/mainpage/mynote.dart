@@ -6,7 +6,7 @@ import '../subpage/createnote.dart';
 import '../subpage/updatenote.dart';
 
 import '../../models/note.dart';
-import '../../viewsmodel/database_note.dart';
+import '../../models/database_note.dart';
 import '../../viewsmodel/notifi_service.dart';
 
 class MyNote extends StatefulWidget {

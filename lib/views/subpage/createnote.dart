@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
 import '../../customcolor.dart';
-import '../../viewsmodel/database_note.dart';
+import '../../models/database_note.dart';
 import '../../viewsmodel/notifi_service.dart';
 
 class CreateNote extends StatefulWidget {
