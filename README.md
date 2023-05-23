@@ -1,6 +1,6 @@
 # BOOKHIVE Aplication
 
-Flutter Project
+Sebuah aplikasi buku online yang memudahkan pengguna untuk mengetahui deskripsi atau informasi-informasi sebuah buku sebelum akhirnya memutuskan untuk membelinya
 
 ## Getting Started
 
